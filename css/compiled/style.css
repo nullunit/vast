@@ -74,7 +74,8 @@ h1 {
   font-size: 60px;
   font-weight: 300;
   line-height: 1.2;
-  margin: 60px 0 24px; }
+  margin: 60px 0 24px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6); }
   h1 span {
     display: block;
     font-weight: 800; }
@@ -143,7 +144,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 24px 32px;
-  border-bottom: 1px solid #F2F2F2;
+  border-bottom: 1px solid #000000;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px); }
   header .logo {
@@ -193,6 +194,9 @@ header {
   color: #ffffff; }
   .sounds-hero h1, .sounds-hero h2 {
     color: #ffffff; }
+  .sounds-hero p {
+    font-size: 18px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); }
   .sounds-hero button {
     background-color: #FFBC3B; }
     .sounds-hero button:hover {
@@ -205,12 +209,14 @@ header {
     .sounds-hero .columns .column-left {
       position: relative; }
       .sounds-hero .columns .column-left .button-lockup {
+        padding-top: 20px;
         display: flex;
         justify-content: flex-start;
         width: 100%; }
         .sounds-hero .columns .column-left .button-lockup button, .sounds-hero .columns .column-left .button-lockup p {
           width: 50%; }
         .sounds-hero .columns .column-left .button-lockup p {
+          font-size: 20px;
           padding: 16px 0;
           line-height: 24px;
           margin: 0;
