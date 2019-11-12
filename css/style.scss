@@ -151,7 +151,7 @@ header {
   -webkit-backdrop-filter: blur(10px);
   .logo {
     width: 100px;
-    background: url(../../assets/icons/nav-logo.svg) left center no-repeat;
+    background: url(../../assets/nav-logo.png) left center no-repeat;
   }
   nav {
     display: flex;
@@ -166,9 +166,9 @@ header {
       background-position: left center;
       background-repeat: no-repeat;
       background-color: transparent;
-      &.link-sights { background-image: url(../../assets/icons/nav-icon-sights.svg); }
-      &.link-sounds { background-image: url(../../assets/icons/nav-icon-sounds.svg); }
-      &.link-ideas  { background-image: url(../../assets/icons/nav-icon-ideas.svg); }
+      &.link-sights { background-image: url(../../assets/nav-icon-sights.png); }
+      &.link-sounds { background-image: url(../../assets/nav-icon-sounds.png); }
+      &.link-ideas  { background-image: url(../../assets/nav-icon-ideas.png); }
       &:hover { color: $color-white; }
     }
     .button {
@@ -187,7 +187,7 @@ header {
     position: relative;
     height: auto;
     background-color: $color-black;
-    background-image: url(../../assets/backgrounds/background-hero.jpg);
+    background-image: url(../../assets/background-hero.png);
     background-position: center center;
     background-position: no-repeat;
     background-size: cover;
@@ -221,7 +221,7 @@ header {
                 width: 100%;
                 padding: 0 0 0 28px;
                 margin: 32px 0 0 0;
-                background: url(../../assets/icons/icon-android.svg) left center no-repeat;
+                background: url(../../assets/icon-android.png) left center no-repeat;
             }
         }
         .column-right {
@@ -234,7 +234,7 @@ header {
 .sounds-more {
     padding: 100px 0;
     background-color: $color-yellow;
-    background-image: url(../../assets/backgrounds/midground-sounds.png), url(../../assets/backgrounds/background-sounds.png);
+    background-image: url(../../assets/midground-sounds.png), url(../../assets/background-sounds.png);
     background-position: -20% center, 100% 0%;
     background-repeat: no-repeat, no-repeat;
     color: $color-black;
@@ -284,7 +284,7 @@ header {
     padding: 0;
     margin: 0;
     height: 24px;
-    background: url(../../assets/backgrounds/background-deco-band.jpg) center center repeat-x;
+    background: url(../../assets/background-deco-band.png) center center repeat-x;
 }
 
 footer {
@@ -301,7 +301,7 @@ footer {
       height: 40px;
       display: block;
       text-align: center;
-      background: url(../../assets/icons/logo-nullunit.svg) center center no-repeat;
+      background: url(../../assets/logo-nullunit.png) center center no-repeat;
     img {
       margin: 0 auto;
     }
